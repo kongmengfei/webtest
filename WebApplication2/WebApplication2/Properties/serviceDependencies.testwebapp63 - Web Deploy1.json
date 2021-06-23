@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bksqlmvc/databases/bklogindb",
+      "type": "mssql.azure",
+      "connectionId": "Database1",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
